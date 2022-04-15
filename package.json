@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appType": "clockface",
+    "appDisplayName": "BalloonStats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "BalloonStats"
+      }
+    },
+    "defaultLanguage": "en-US",
+    "appUUID": "3fe7c8c2-d957-4f9b-acdc-a35a510cbf56"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
