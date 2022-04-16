@@ -1,11 +1,44 @@
 <svg class="background">
-  <svg id="clock">
-    <image id="glitter" x = "0" y = "60" href="glitter300.png" height="240" width="300"/>
+  <svg id="clouds">
+     <image id="cloud1" x = "11" y = "20" href="cloud.png" height="64" width="110"  opacity="0.90"/>
+     <image id="cloud2" x = "187" y = "5" href="cloud.png" height="64" width="110"  opacity="0.90"/>
+     <image id="cloud3" x = "128" y = "70" href="cloud.png" height="64" width="110"  opacity="0.90"/>
   </svg>
+
+  
+  <svg id="steps" x = "-6" y = "-90" >
+    <image x = "0" y = "0" href="balloon.png" height="109" width="80"  class="balloon1"/>
+    <image x = "22" y = "20" href="icons/steps.png" height="30" width="35" opacity="0.90"/>
+    <text id="stepsTxt"  x = "40" y = "70"/>
+  </svg>
+
+  <svg id="distance" x = "53" y = "175" >
+    <image x = "0" y = "0" href="balloon.png" height="109" width="80"  class="balloon2"/>
+    <image x = "29" y = "20" href="icons/location.png" height="31" width="22" opacity="0.90"/>
+    <text id="distanceTxt"  x = "40" y = "70"/>
+  </svg>
+
+  <svg id="calories" x = "112" y = "175" >
+    <image x = "0" y = "0" href="balloon.png" height="109" width="80"  class="balloon3"/>
+    <image x = "27" y = "20" href="icons/calorie.png" height="32" width="26" opacity="0.90"/>
+    <text id="caloriesTxt"  x = "40" y = "70"/>
+  </svg>
+
+  <svg id="elevationGain" x = "171" y = "175" >
+    <image x = "0" y = "0" href="balloon.png" height="109" width="80"  class="balloon4"/>
+    <image x = "27" y = "20" href="icons/elevation.png" height="27" width="26" opacity="0.90"/>
+    <text id="elevationTxt"  x = "40" y = "70"/>
+  </svg>
+
+  <svg id="activeZoneMinutes" x = "229" y = "175" >
+    <image x = "0" y = "0" href="balloon.png" height="109" width="80"  class="balloon5"/>
+    <image x = "29" y = "20" href="icons/activemin.png" height="28" width="22" opacity="0.90"/>
+    <text id="activeminTxt"  x = "40" y = "70"/>
+  </svg>
+
 
   <text id="stepCount" />
   <text id="batGauge" />
-  <text id="hrNumber" />
-  <text id="minNumber" />
+  <text id="timeNumber"/>
   <text id="dateString" />
 </svg>

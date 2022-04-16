@@ -1,6 +1,28 @@
 
 .background {
-  viewport-fill: #000000;
+  viewport-fill: #d5eff3;
+}
+
+.balloon1 {
+  fill:#22daff;
+  opacity: 0.7;
+}
+
+.balloon2 {
+  fill:#fff212;
+  opacity: 0.7;
+
+}.balloon3 {
+  fill:#ffa00a;
+  opacity: 0.7;
+
+}.balloon4 {
+  fill:#ff9dfc;
+  opacity: 0.7;
+
+}.balloon5 {
+  fill:#ff1440;
+  opacity: 0.7;
 }
 
 #clock {
@@ -11,32 +33,23 @@
 }
 
 text {
-  fill: white;
+  fill: black;
   text-length: 250;
   text-anchor: middle;
+  opacity:"0.50";
 }
 
-#hrNumber {
-  x: 50%-15;
-  y: 60%;
-  font-size:120;
-  font-family: Colfax-Thin;
-  text-length: 2;
-  text-anchor: end;
-}
-
-#minNumber {
-  x: 50%-15;
-  y: 60%;
-  font-size:120;
-  font-family: Colfax-Medium;
-  text-length: 2;
-  text-anchor: start;
+#timeNumber {
+  x: 50%;
+  y: 50%;
+  font-size:100;
+  font-family: Seville-Book;
+  text-anchor: middle;
 }
 
 #dateString {
   x: 50%;
-  y: 60%-100;
+  y: 50%-80;
   font-size: 22;
   font-family: Seville-Bold;
 }
@@ -62,4 +75,44 @@ text {
   font-size: 20;
   font-family: Seville-Book;
   text-anchor: end;
+}
+
+#stepsTxt {
+  fill: white;
+  opacity:"0.90";
+  font-size: 18;
+  font-family: Seville-Bold;
+  text-anchor: middle;
+}
+
+#distanceTxt {
+  fill: white;
+  opacity:"0.90";
+  font-size: 18;
+  font-family: Seville-Bold;
+  text-anchor: middle;
+}
+
+#caloriesTxt {
+  fill: white;
+  opacity:"0.90";
+  font-size: 18;
+  font-family: Seville-Bold;
+  text-anchor: middle;
+}
+
+#elevationTxt {
+  fill: white;
+  opacity:"0.90";
+  font-size: 18;
+  font-family: Seville-Bold;
+  text-anchor: middle;
+}
+
+#activeminTxt {
+  fill: white;
+  opacity:"0.90";
+  font-size: 18;
+  font-family: Seville-Bold;
+  text-anchor: middle;
 }
